@@ -1,1 +1,1 @@
-# Crop-disease-detection
+Crop-disease-detection
