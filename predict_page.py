@@ -154,7 +154,7 @@ def show():
     """, unsafe_allow_html=True)
     # Constants
     IMAGE_SIZE = (128, 128)
-    MODEL_PATH = "C:/Users/sruja/OneDrive/Desktop/crop_disease/crop_disease/model_ver12.keras"
+    MODEL_PATH = "model_ver12.keras"
     THINGSPEAK_CHANNEL_ID = "2996157"  # Replace with your ThingSpeak channel ID
 
     # Load model
@@ -438,7 +438,7 @@ def show():
         import os
         import pandas as pd
         from datetime import datetime
-        save_path = "C:/Users/sruja/OneDrive/Desktop/crop_disease/crop_disease/predictions.csv"
+        save_path = "predictions.csv"
         new_data = pd.DataFrame([{
             "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "Prediction": label,
