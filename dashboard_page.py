@@ -34,8 +34,8 @@ def show():
     st.title(f"📊 {t['dashboard_title']}")
 
   # Check if the CSV exists
-    if os.path.exists("C:/Users/sruja/OneDrive/Desktop/crop_disease/crop_disease/predictions.csv"):
-      df = pd.read_csv("C:/Users/sruja/OneDrive/Desktop/crop_disease/crop_disease/predictions.csv")
+    if os.path.exists("predictions.csv"):
+      df = pd.read_csv("predictions.csv")
 
       st.markdown(f"<h6 style='color:#2b1d0e;'>{t['dashboard_subtitle']}</h6>", unsafe_allow_html=True)
 
@@ -51,7 +51,7 @@ def show():
     
       # Option to clear history
       if st.button("🗑️"):
-          os.remove("C:/Users/sruja/OneDrive/Desktop/crop_disease/crop_disease/predictions.csv")
+          os.remove("predictions.csv")
           st.success(t['clear_history_success'])
     else:
       st.warning(t['no_predictions_warning'])
