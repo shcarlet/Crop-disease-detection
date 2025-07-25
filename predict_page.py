@@ -77,7 +77,7 @@ def show():
             """,
             unsafe_allow_html=True
         )
-    set_background("C:/Users/sruja/OneDrive/Desktop/crop_disease/crop_disease/SoilBg2.jpg")
+    set_background("SoilBg2.jpg")
 
     #Light and Dark theme Feature
     '''mode = st.sidebar.radio("Choose Theme Mode", ["Light", "Dark"])
