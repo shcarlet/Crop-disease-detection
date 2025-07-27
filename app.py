@@ -99,7 +99,7 @@ st.markdown("""
     width: 100%;
 }
 div.stButton > button {
-    width: 60%;
+    width: 72%;
     border-radius: 60;
 }
 </style>
