@@ -53,7 +53,7 @@ with st.sidebar.expander("About website"):
     **Features**:
     - 📤 Image upload
     - 🤖 AI-based predictions
-    - 📊 Sensor integration (coming soon)
+    - 📊 Sensor integration
     - ✅ Treatment suggestions
 
     **Built by:**  
