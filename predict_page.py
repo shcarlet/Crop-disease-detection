@@ -408,7 +408,7 @@ def show():
 
         label_cleaned = label.replace("___", " ").replace("_", " ").strip()
         label_cleaned = " ".join(label_cleaned.split())
-        st.write(f"DEBUG Cleaned Label: {label_cleaned}")
+     #   st.write(f"DEBUG Cleaned Label: {label_cleaned}")
         return disease_info_dict.get(label_cleaned)
 
     # ---- Streamlit UI ----
